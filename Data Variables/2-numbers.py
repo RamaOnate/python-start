@@ -1,7 +1,6 @@
 # There are 3 types of numbers:
 
-from numbers import Real
-
+import random
 
 x = 1      # int
 y = 2.8    # float
@@ -30,3 +29,7 @@ print(type(b), type(c), type(d))
 
 print(int(y))
 print(complex(y))
+
+# Random numbers
+
+print(random.randrange(0, 10))
